@@ -5,7 +5,6 @@ from pacman_module.pacman import Directions
 from random import randint
 
 
-
 class PacmanAgent(Agent):
     def __init__(self, args):
         """
@@ -30,5 +29,6 @@ class PacmanAgent(Agent):
         """
         legals = state.getLegalActions()
         legals.remove(Directions.STOP)
-        action = legals[randint(0, len(legals) - 1)]
-        return action
+        id = randint(0, len(legals)-1)
+
+        return legals[id]
