@@ -14,5 +14,7 @@ Projects we had in our course on introduction to artificial intelligence in 2018
 - python run.py
 - python run.py --layout medium
 - python run.py --layout large --agentfile Projet1/bfs.py
+- python run.py --layout small_adv --agent Projet2/minimax.py
 
 ![Pacman without ghost](images/pacman-01.PNG)
+![Pacman with ghost](images/pacman-02.PNG)
