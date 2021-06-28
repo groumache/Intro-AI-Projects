@@ -1,5 +1,5 @@
 # Intro-AI-Projects
-Projects we had in our course on introduction to artificial intelligence
+Projects we had in our course on introduction to artificial intelligence in 2018
 
 ## Links
 
@@ -9,3 +9,10 @@ Projects we had in our course on introduction to artificial intelligence
 - Part 3: [Bayes filter](https://github.com/glouppe/info8006-introduction-to-ai/tree/master/projects/project3)
 - Reading assignment : [Mastering the game of Go with deep neural networks and tree search](https://www.researchgate.net/publication/292074166_Mastering_the_game_of_Go_with_deep_neural_networks_and_tree_search)
 
+## How to run the program
+
+- python run.py
+- python run.py --layout medium
+- python run.py --layout large --agentfile Projet1/bfs.py
+
+![Pacman without ghost](images/pacman-01.PNG)
